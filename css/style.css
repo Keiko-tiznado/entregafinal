@@ -1,0 +1,36 @@
+header {
+  color: white;
+}
+header .navbar-brand {
+  font-size: 30px;
+  color: white;
+}
+header .nav-link {
+  color: white;
+}
+
+footer .pieDePagina {
+  font-size: 48px;
+  padding: 10px;
+  background-color: #121416;
+  color: white;
+}
+
+footer nav {
+  font-size: 17px;
+}
+
+footer nav li {
+  text-decoration: none;
+  text-align: center;
+  list-style: none;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+footer nav a {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
