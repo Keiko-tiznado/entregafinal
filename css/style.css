@@ -36,7 +36,7 @@ header section nav {
 }
 .bienvenidosModelato img {
   width: 400px;
-  height: 400px;
+  padding: 0;
 }
 
 .container-info {
