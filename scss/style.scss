@@ -1,77 +1,19 @@
-/*MAPAS*/
-$colores:(
-    color1: rgb(189, 161, 125),
-    color2: black,
-    color3: white,
-    color4: grey,
-)
-;
-
-/*FUENTES*/
-$fuentes:(
-    sm:16px,
-    md:25px,
-    lg:30px,
-    sm-titulos: 40px,
-    md-titulos: 48px,
-    lg-titulos:48px,
-)
-;
-
-/*HEADER*/
-header{
-    .navbar-brand{
-        font-size: map-get($fuentes, sm-titulos);
-        color: map-get($colores, color3);
-    }
-    .nav-link{
-        color: map-get($colores, color3);
-    }
-}
-header{
-    section{
-        nav{
-            background-color: map-get($colores, color1);
-        }
-    }
-}
-header{
-    section{
-        nav:hover{
-                background-color:map-get($colores, color4);
-        }
-    }
-}
+/*BASE*/
+@import "./base/reset";
 
 
-/*MAIN*/
-.col{
-    background-color: map-get($colores , color1);
-}
+
+/*UTILITIES*/
+@import "./utilities/maps";
+@import "./utilities/variable";
 
 
-/*FOOTER*/
-footer{
-    background-color: map-get($colores , color4);
-    h2{
-        font-size: map-get($fuentes , sm-titulos);
-        color: map-get($colores , color3);
-        margin: 10px;
-    }
-}
-.pieDePagina{
-    font-size: map-get($fuentes , sm);
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    li{
-        a{
-            color: map-get($colores, color3);
-            display: inline-block;
-            margin: 10px;
-            text-decoration: none; 
-        }
-    }
-}
+
+/*LAYOUT*/
+@import "./layout/header";
+@import "./layout/main_index.scss";
+@import "./layout/footer";
+
+
+/*COMPONENTS*/
+

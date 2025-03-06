@@ -1,38 +1,33 @@
-/*MAPAS*/
-/*FUENTES*/
 /*HEADER*/
-header .navbar-brand {
+header .navbar-brand{
   font-size: 40px;
   color: white;
 }
-header .nav-link {
-  color: white;
+header .navbar-brand .navbar-link{
+  color:white
 }
-
-header section nav {
+header section nav{
   background-color: rgb(189, 161, 125);
 }
-
-header section nav:hover {
+header section nav:hover{
   background-color: grey;
 }
 
 /*MAIN*/
-.col {
+.col{
   background-color: rgb(189, 161, 125);
 }
 
 /*FOOTER*/
-footer {
-  background-color: grey;
+footer{
+  background-color: gray;
 }
-footer h2 {
+footer h2{
   font-size: 40px;
   color: white;
   margin: 10px;
 }
-
-.pieDePagina {
+.pieDePagina{
   font-size: 16px;
   text-align: center;
   display: flex;
@@ -40,11 +35,9 @@ footer h2 {
   justify-content: center;
   list-style: none;
 }
-.pieDePagina li a {
+.pieDePagina li a{
   color: white;
-  display: inline-block;
-  margin: 10px;
-  text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
 }
-
-/*# sourceMappingURL=style.css.map */

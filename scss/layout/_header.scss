@@ -1,0 +1,24 @@
+/*HEADER*/
+header{
+    .navbar-brand{
+        font-size: map-get($fuentes, sm-titulos);
+        color: map-get($colores, color3);
+    }
+    .nav-link{
+        color: map-get($colores, color3);
+    }
+}
+header{
+    section{
+        nav{
+            background-color: map-get($colores, color1);
+        }
+    }
+}
+header{
+    section{
+        nav:hover{
+                background-color:map-get($colores, color4);
+        }
+    }
+}

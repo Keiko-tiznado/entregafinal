@@ -1,0 +1,25 @@
+/*FOOTER*/
+footer{
+    background-color: map-get($colores , color4);
+    h2{
+        font-size: map-get($fuentes , sm-titulos);
+        color: map-get($colores , color3);
+        margin: 10px;
+    }
+}
+.pieDePagina{
+    font-size: map-get($fuentes , sm);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    li{
+        a{
+            color: map-get($colores, color3);
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none; 
+        }
+    }
+}
